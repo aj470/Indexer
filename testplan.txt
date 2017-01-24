@@ -1,0 +1,67 @@
+Group 1/0
+netids: aj470, gg548
+Systems Programming - PA3: INDEXER
+
+Here is the breif structure of test cases and the output generated through Indexer.
+
+testcases1: This testcase1 folder contains a nested directries and files in those directries.
+	    there are one or two lines in the files and also literals and other symbols in
+	    a random way to check the algorithm's ability to tokenize and sort and index the proper tokens.
+
+	INPUT:
+		$ ./index output.txt testcases1
+	EXPECTED OUT:
+		Inverted-index file successfully written to output.txt
+
+
+testcases2: This testcases2 folder contains two file with the average data sets. There is one paragraph
+	    in each of the files which checks the working for the algorithm for the average and large data sets.
+	
+	INPUT:
+		$ ./index output.txt testcases2
+	EXPECTED OUT:
+		The requested output file name is already in use.
+		Overwrite? (y/n)
+		y
+		Inverted-index file successfully written to output.txt
+
+testcases3: This testcases3 folder contants empty file. So the WriteOutput cannot find
+	any token to write so it throughs the error. But it successfully write the output file 
+	which has the formate but has no tokens
+	INPUT:
+		$ ./index output.txt testing03
+	EXPECTED OUT:
+		ERR: file cannot be indexed in 'writeToOutput'.
+		Indexing successful to output file: out.txt
+	
+
+testcases4: This testcases4 folder contains different formate files and also have one empty
+		directory so to check the ability of algorithm to differentiate the directries 
+		and open differnt files
+	INPUT:
+		$ ./index output.txt testcases4
+	EXPECTED OUT:
+		The requested output file name is already in use.
+		Overwrite? (y/n)
+		y
+		Inverted-index file successfully written to output.txt
+
+
+TESTING05: This testcase5 run through a lot of directires and files and successfully output file.
+	INPUT:
+		$ ./index output.txt testing05
+	EXPECTED OUT:
+		The requested output file name is already in use.
+		Overwrite? (y/n)
+		y
+		Inverted-index file successfully written to output.txt
+
+TESTING06: This tesetcases6 throughly sum up all above 5 test cases and have multiple files
+	of different kind, data set, and having different types of content. It passses all test cases.
+	INPUT:
+		$ ./index output.txt testing06
+	EXPECTED OUT:
+		Inverted-index file successfully written to output.txt
+
+
+This program runs through all test cases and give desired output according to the input.

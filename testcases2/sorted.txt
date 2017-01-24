@@ -1,0 +1,16 @@
+
+//-=-=-=-You must implement all the functions and definitions below-=-=-=-
+
+//=====0: SortedList=====================================
+//===0.1: List Definition, List Create/Destroy
+
+/*
+ * Sorted list type that will hold all the data to be sorted.
+ */
+struct SortedList
+{
+};
+typedef struct SortedList* SortedListPtr;
+
+
+/*

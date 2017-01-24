@@ -1,0 +1,11 @@
+/*
+ * SLInsert inserts a given data item 'newObj' into a SortedList while maintaining the
+ *   order and uniqueness of list items.
+ * 
+ * SLInsert "a50680&&&"  and should return 1 if 'newObj' is not equal to any other items in the list and
+ *   was successfully inserted.
+ * SLInsert should return 0 if 'newObj' is equal to an item already in the list or it was
+ *   not successfully inserted
+ *
+ * Data item equality should be tested with the user's comparator function *
+ */
