@@ -1,8 +1,11 @@
 #ASSIGNMENT 3: INDEXER#
 By: Gabriel Gutierrez (gg548)
       Ayush Joshi (aj470)
+
 Group: 1/0
 
+#Usage:#
+Input: ./index outputFile fileToIndex
 #Description:#
 -	Our indexer incorporates a tokenizer that reads in text from the current file character by character using the fgetc() function and when any non-alphanumeric character is reached or when the end of file is reached, which is detected with the feof() function, the token string is returned to then be sorted into our sorted-list structure.
 
